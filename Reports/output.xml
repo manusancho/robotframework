@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.7.0 on win32)" generated="20180710 13:38:33.983">
+<suite id="s1" name="TestSuiteAmazon" source="C:\Users\Robot\PycharmProjects\RobotPractica1\TestCases\TestSuiteAmazon.robot">
+<test id="s1-t1" name="Accion que recibe parametroi y en funcion del mismo realiza accion A o B">
+<kw name="Test edad">
+<arguments>
+<arg>16</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Si tienes ${edad} años eres:</arg>
+<arg>console=true</arg>
+</arguments>
+<msg timestamp="20180710 13:38:34.093" level="INFO">Si tienes 16 años eres:</msg>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${edad} &gt;= 18</arg>
+<arg>Mayor de edad</arg>
+<arg>ELSE</arg>
+<arg>Menor de edad</arg>
+</arguments>
+<kw name="Menor de edad">
+<kw name="Test Python" library="functions">
+<assign>
+<var>${resultado}</var>
+</assign>
+<msg timestamp="20180710 13:38:34.093" level="INFO">${resultado} = test</msg>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>menor de edad</arg>
+<arg>console=true</arg>
+</arguments>
+<msg timestamp="20180710 13:38:34.093" level="INFO">menor de edad</msg>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093"></status>
+</kw>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093"></status>
+</kw>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093"></status>
+</kw>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093"></status>
+</kw>
+<kw name="Test edad">
+<arguments>
+<arg>17</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Si tienes ${edad} años eres:</arg>
+<arg>console=true</arg>
+</arguments>
+<msg timestamp="20180710 13:38:34.093" level="INFO">Si tienes 17 años eres:</msg>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${edad} &gt;= 18</arg>
+<arg>Mayor de edad</arg>
+<arg>ELSE</arg>
+<arg>Menor de edad</arg>
+</arguments>
+<kw name="Menor de edad">
+<kw name="Test Python" library="functions">
+<assign>
+<var>${resultado}</var>
+</assign>
+<msg timestamp="20180710 13:38:34.093" level="INFO">${resultado} = test</msg>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>menor de edad</arg>
+<arg>console=true</arg>
+</arguments>
+<msg timestamp="20180710 13:38:34.093" level="INFO">menor de edad</msg>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093"></status>
+</kw>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093"></status>
+</kw>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093"></status>
+</kw>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093"></status>
+</kw>
+<kw name="Test edad">
+<arguments>
+<arg>18</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Si tienes ${edad} años eres:</arg>
+<arg>console=true</arg>
+</arguments>
+<msg timestamp="20180710 13:38:34.093" level="INFO">Si tienes 18 años eres:</msg>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${edad} &gt;= 18</arg>
+<arg>Mayor de edad</arg>
+<arg>ELSE</arg>
+<arg>Menor de edad</arg>
+</arguments>
+<kw name="Mayor de edad">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>mayor de edad</arg>
+<arg>console=true</arg>
+</arguments>
+<msg timestamp="20180710 13:38:34.093" level="INFO">mayor de edad</msg>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093"></status>
+</kw>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093"></status>
+</kw>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093"></status>
+</kw>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093"></status>
+</kw>
+<tags>
+<tag>edad</tag>
+</tags>
+<status status="PASS" starttime="20180710 13:38:34.093" endtime="20180710 13:38:34.093" critical="yes"></status>
+</test>
+<doc>Pruebas con el site Amazon</doc>
+<status status="PASS" starttime="20180710 13:38:33.983" endtime="20180710 13:38:34.093"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">edad</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="TestSuiteAmazon">TestSuiteAmazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
